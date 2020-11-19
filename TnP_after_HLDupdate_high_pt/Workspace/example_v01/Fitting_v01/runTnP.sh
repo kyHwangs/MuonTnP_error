@@ -1,0 +1,6 @@
+#!bin/bash
+
+cmsRun TriggerEff.py data_25ns Mu50_OR_OldMu100_OR_TkMu100_from_NewHighPtID_and_RelTrkIso_010 >&Mu50_OR_OldMu100_OR_TkMu100_from_NewHighPtID_and_RelTrkIso_010.log
+cmsRun TriggerEff.py data_25ns Mu50_OR_OldMu100_OR_TkMu100_from_L1SingleMu22_and_NewHighPtID_and_RelTrkIso_010 >&Mu50_OR_OldMu100_OR_TkMu100_from_L1SingleMu22_and_NewHighPtID_and_RelTrkIso_010.log
+
+echo "TnP fitting: finished"
